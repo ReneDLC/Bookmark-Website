@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<div id="foo"></div>
+<html lang="en">
+	
+	<head>
+		<meta charset="utf-8">
+		<title>PHPbookmark</title>
+		<link rel="stylesheet" href="assets/stylesheets/main.css">
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,300,100' rel='stylesheet' type='text/css'>
+	</head>
+	
+	<body>
+		<header class="primary-header container group">
+		
+			<h1 class="logo">
+				<a href="index.html">PHPbookmark</a>
+			</h1>
+			
+			<div class="tagline">
+				<h3>Save Your Bookmarks</h3>
+				<a class ="btn btn-alt" href="register_form.html">Sign Up</a>
+			</div>
+		</header>
+		
+		<section class="row">
+			<div class="container column">
+				<div class="col-2-3">
+					<form class="index-form" action="member.php" method="post">
+						<fieldset class="register-group">
+						
+							<h2>Members Log In Here:</h2>
+							<label>
+							UserName
+								<input type="text" name="username" required></input>
+							</label>
+							<label>
+							Password
+								<input type="password" name="passwd" required></input>
+							</label>
+							
+							<input class="btn btn-default" type="submit" value="Log in"></input>
+						</fieldset>
+						<a href="forgot_form.html">Forgot your password?</a>
+					</form>
+				</div><!-- 
+				 --><aside class="col-1-3 help">
+					<h2>Help</h2>
+					<p>New users will enter the site by Signing Up in the right hand corner of the page. Once an account is created, please sign in with the form on the left. Member of the site can Add Bookmarks, Delete Bookmarks, Change their Password, view Recommended Bookmarks, or Log Out.</p>
+				</aside>
+			</div>
+			
+			<div class="column message">
+				<section>
+					<h2>About PHPbookmark</h2>
+					<ul>
+						<li>PHPbookmark is a site dedicated to adding user information to a database.</li>
+						<li>Integrates the lastest HTML, PHP, and MySQL languages, creating the latest in Forward/Back-end Web Development.</li>
+						<li>This easy-to-use website provides the user with a limitless amount of bookmarks</li>
+						<li>Using our best MySQL queries, we recommend you websites you should bookmark based on other users just like you.</li>
+						<li>We plan to expand our Website designs, so look forward to future updates that will make Bookmark Keeping a hastle-free process.</li>
+					</ul>
+				</section><!--
+				 --><aside class="col-1-3">
+						<h3>Word From Programmer</h3>
+						<p>This is the first Test site that is trying to implement all three languages. This HTML file is seperated into several sections, and should only provide access to those in the MySQL database. If everything works correctly, the only way to access any other page than this one, you would need to register for an account.</p>
+				</aside>
+					
+			</div>
+
+			<div class="column message">
+				<section class="notice">
+					<h2>Notice</h2>
+					<h4>The website will experience updates for the time being. The beggining design just allows the user to add Bookmarks to their homepage, as well as modify their account to a certain extent. Look forward to future updates.</h4>
+				</section>
+			</div>
+		</section>
+		
+		<footer class="primary-footer container group">
+		
+			<small>PHPbookmark. 1234 Street Dr. Houston, TX 77011 (123) 456-7891<br> &copy; 2016 PHPbookmark. All rights reserverd. Report a problem.</small>
+			
+		</footer>
+	</body>
+	
+</html>
